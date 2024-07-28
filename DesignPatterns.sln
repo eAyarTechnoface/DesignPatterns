@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{5750F941-B4B2-4819-8CAF-DF94304CCD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryDesignPattern", "FactoryDesignPattern\FactoryDesignPattern.csproj", "{F9578732-0399-4BA5-8F8E-07F082D14C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "FactoryDesignPattern\FactoryDesignPattern.csproj", "{F9578732-0399-4BA5-8F8E-07F082D14C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{ACA43001-DA59-4965-9D43-E3F8F0084569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{ACA43001-DA59-4965-9D43-E3F8F0084569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{1D914FEA-CC8A-42D4-830D-DAEB73D18E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{1D914FEA-CC8A-42D4-830D-DAEB73D18E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern\ChainOfResponsibilityDesignPattern.csproj", "{E2E84831-0631-4D37-B86B-84CD24A01256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern\ChainOfResponsibilityDesignPattern.csproj", "{E2E84831-0631-4D37-B86B-84CD24A01256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{1EA5F181-D59C-4175-B760-59988D34E566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.csproj", "{1EA5F181-D59C-4175-B760-59988D34E566}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{86AA21D6-532A-4621-98E6-22B05755423F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5750F941-B4B2-4819-8CAF-DF94304CCD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5750F941-B4B2-4819-8CAF-DF94304CCD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5750F941-B4B2-4819-8CAF-DF94304CCD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5750F941-B4B2-4819-8CAF-DF94304CCD58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9578732-0399-4BA5-8F8E-07F082D14C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9578732-0399-4BA5-8F8E-07F082D14C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9578732-0399-4BA5-8F8E-07F082D14C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{1EA5F181-D59C-4175-B760-59988D34E566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA5F181-D59C-4175-B760-59988D34E566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA5F181-D59C-4175-B760-59988D34E566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AA21D6-532A-4621-98E6-22B05755423F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AA21D6-532A-4621-98E6-22B05755423F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AA21D6-532A-4621-98E6-22B05755423F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AA21D6-532A-4621-98E6-22B05755423F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
